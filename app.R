@@ -8,92 +8,167 @@ ui <- fluidPage(
            h1("Vocab"),
            hr(),
            actionButton("vocab100",
-                        label = h2("100"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$100"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("vocab200",
-                        label = h2("200"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$200"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("vocab300",
-                        label = h2("300"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$300"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("vocab400",
-                        label = h2("400"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$400"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                        border-width: 2px"),
            actionButton("vocab500",
-                        label = h2("500"),
-                        onclick = sprintf("window.open('%s')", url))),
+                        label = h2("$500"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px")),
     column(1, offset=1,
            h1("Wildlife"),
            hr(),
            actionButton("wildlife100",
-                        label = h2("100"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$100"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildlife200",
-                        label = h2("200"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$200"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildlife300",
-                        label = h2("300"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$300"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildlife400",
-                        label = h2("400"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$400"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildlife500",
-                        label = h2("500"),
-                        onclick = sprintf("window.open('%s')", url))),
+                        label = h2("$500"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px")),
     column(1, offset=1,
            h1("Wild Places"),
            hr(),
            actionButton("wildplace100",
-                        label = h2("100"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$100"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildplace200",
-                        label = h2("200"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$200"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildplace300",
-                        label = h2("300"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$300"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildplace400",
-                        label = h2("400"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$400"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("wildplace500",
-                        label = h2("500"),
-                        onclick = sprintf("window.open('%s')", url))),
+                        label = h2("$500"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px")),
     column(1, offset=1,
            h2("Laws & Policies"),
            hr(),
            actionButton("policy100",
-                        label = h2("100"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$100"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("policy200",
-                        label = h2("200"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$200"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("policy300",
-                        label = h2("300"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$300"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("policy400",
-                        label = h2("400"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$400"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("policy500",
-                        label = h2("500"),
-                        onclick = sprintf("window.open('%s')", url))),
+                        label = h2("$500"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px")),
     column(1, offset=1,
            h2("How to Help!"),
            hr(),
            actionButton("help100",
-                        label = h2("100"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$100"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("help200",
-                        label = h2("200"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$200"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("help300",
-                        label = h2("300"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$300"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("help400",
-                        label = h2("400"),
-                        onclick = sprintf("window.open('%s')", url)),
+                        label = h2("$400"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"),
            actionButton("help500",
-                        label = h2("500"),
-                        onclick = sprintf("window.open('%s')", url)))
+                        label = h2("$500"),
+                        onclick = sprintf("window.open('%s')", url),
+                        style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
+                                border-radius: 5px; 
+                                border-width: 2px"))
   ))
 
 server <- function(input, output, session){
