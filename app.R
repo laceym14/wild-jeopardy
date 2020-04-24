@@ -12,31 +12,41 @@ ui <- fluidPage(
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("vocab200",
                         label = h2("$200"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("vocab300",
                         label = h2("$300"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("vocab400",
                         label = h2("$400"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                        border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("vocab500",
                         label = h2("$500"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px")),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px")),
     column(1, offset=1,
            h1("Wildlife"),
            hr(),
@@ -45,31 +55,41 @@ ui <- fluidPage(
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildlife200",
                         label = h2("$200"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildlife300",
                         label = h2("$300"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildlife400",
                         label = h2("$400"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildlife500",
                         label = h2("$500"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px")),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px")),
     column(1, offset=1,
            h1("Wild Places"),
            hr(),
@@ -78,31 +98,41 @@ ui <- fluidPage(
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildplace200",
                         label = h2("$200"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildplace300",
                         label = h2("$300"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildplace400",
                         label = h2("$400"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("wildplace500",
                         label = h2("$500"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px")),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px")),
     column(1, offset=1,
            h2("Laws & Policies"),
            hr(),
@@ -111,31 +141,41 @@ ui <- fluidPage(
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("policy200",
                         label = h2("$200"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("policy300",
                         label = h2("$300"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("policy400",
                         label = h2("$400"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("policy500",
                         label = h2("$500"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px")),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px")),
     column(1, offset=1,
            h2("How to Help!"),
            hr(),
@@ -144,31 +184,41 @@ ui <- fluidPage(
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("help200",
                         label = h2("$200"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("help300",
                         label = h2("$300"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("help400",
                         label = h2("$400"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"),
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"),
            actionButton("help500",
                         label = h2("$500"),
                         onclick = sprintf("window.open('%s')", url),
                         style="color: #ffcf00; background-color: #005596; border-color: #0d47a1;
                                 border-radius: 5px; 
-                                border-width: 2px"))
+                                border-width: 2px;
+                                font-weight: bold;
+                                font-size: 15px"))
   ))
 
 server <- function(input, output, session){
